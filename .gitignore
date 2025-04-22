@@ -1,0 +1,23 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/hugo_stats.json
+/hugo_cache/
+
+# Build locks and temp files
+.hugo_build.lock
+
+# OS-specific files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Log files
+*.log
+
+# Node modules (if you use npm for styling or plugins)
+node_modules/
+
+# Optional: deploy scripts or local config
+*.env

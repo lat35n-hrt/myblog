@@ -1,0 +1,36 @@
+baseURL = "https://yourdomain.com/"
+defaultContentLanguage = "ja"
+theme = "PaperMod"
+
+[pagination]
+  paginate = 5
+
+[languages]
+  [languages.ja]
+    languageName = "日本語"
+    weight = 1
+    contentDir = "content/ja"
+    title = "マイブログ"
+    languageCode = "ja"
+    params.homeInfoParams = { Title = "ようこそ", Content = "これは日本語のブログです。" }
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "content/en"
+    title = "My Blog"
+    languageCode = "en"
+    params.homeInfoParams = { Title = "Welcome", Content = "This is an English blog." }
+
+[params]
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+
+[markup]
+  [markup.highlight]
+    noClasses = false  # ハイライト用の class を有効に
+    guessSyntax = true
+    style = 'monokai'  # お好きなスタイルに変更可能
+
+[markup.goldmark.renderer]
+  unsafe = true
