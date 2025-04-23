@@ -6,7 +6,7 @@ draft = false
 
 ## Overview
 
-This is a personal setup log for building a multilingual blog using Hugo and the PaperMod theme. The goal was to create a lightweight, text-focused site, mainly as a log for future reference.
+This is a personal setup log for building a multilingual blog using Hugo(v0.146) and the PaperMod theme. The goal was to create a lightweight, text-focused site, mainly as a log for future reference.
 
 ---
 
@@ -106,7 +106,7 @@ git push -u origin main
 
 - Linked with GitHub and deployed from Cloudflare Pages using “+Add > Pages”
 - Static files under the public/ directory are served
-- You can also specify the Hugo version and build command (e.g., hugo)
+- You can also specify the Hugo version(v0.146) and build command ('hugo')
 
 - The baseURL in hugo.toml was a placeholder, so I updated it to the actual Cloudflare Pages URL.
 (The homepage was visible, but internal links didn’t work until this was fixed.)
