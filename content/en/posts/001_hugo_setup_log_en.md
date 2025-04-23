@@ -108,8 +108,7 @@ git push -u origin main
 - Static files under the public/ directory are served
 - You can also specify the Hugo version and build command (e.g., hugo)
 
-
-*The baseURL in hugo.toml was a placeholder, so I updated it to the actual Cloudflare Pages URL.
+- The baseURL in hugo.toml was a placeholder, so I updated it to the actual Cloudflare Pages URL.
 (The homepage was visible, but internal links didn’t work until this was fixed.)
 ---
 
