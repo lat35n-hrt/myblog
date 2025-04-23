@@ -5,6 +5,5 @@ title = 'Hello En'
 +++
 
 
-```html
-**HTML:**
-<p>Hello World</p>
+
+Hello World

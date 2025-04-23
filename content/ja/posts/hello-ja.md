@@ -7,8 +7,4 @@ title = 'Hello Ja'
 
 これは日本語のブログ記事です。
 
-以下は HTML コードの例です：
-
-```html
-**HTML:**
-<p>Hello World</p>
+Hello World
