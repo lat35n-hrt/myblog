@@ -119,6 +119,8 @@ git push -u origin main
 - `public/` 配下の静的ファイルが公開される
 - Hugo のバージョンやビルドコマンドも指定可能（例: `hugo`）
 
+* hugo.toml の baseURL は仮置きの状態だったので、Cloudflare Pages の URL を設定する。
+（トップ画面は表示されるがリンクが機能しないので修正）
 ---
 
 ### 8. カスタムドメインの検討

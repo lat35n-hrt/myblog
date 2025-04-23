@@ -104,11 +104,13 @@ git push -u origin main
 
 ### 7. Deploy to Cloudflare Pages
 
-- Connected GitHub repository
-- Set build command: `hugo`
-- Output directory: `public`
-- Deployment works automatically on each `git push`.
+- Linked with GitHub and deployed from Cloudflare Pages using “+Add > Pages”
+- Static files under the public/ directory are served
+- You can also specify the Hugo version and build command (e.g., hugo)
 
+
+*The baseURL in hugo.toml was a placeholder, so I updated it to the actual Cloudflare Pages URL.
+(The homepage was visible, but internal links didn’t work until this was fixed.)
 ---
 
 ### 8. Domain and Naming
