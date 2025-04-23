@@ -81,7 +81,6 @@ Check the site locally at: [http://localhost:1313](http://localhost:1313)
 
 ### 6. GitHub Setup
 
-- Initialized Git repository
 - Added `.gitignore` to exclude the following:
 
 ```
@@ -92,11 +91,12 @@ public/
 ```
 
 - Created a new repository `myblog` on GitHub
-- Linked remote:
+- Linked remotely:
 
 ```bash
-git remote add origin https://github.com/yourusername/myblog.git
-git branch -M main
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/ユーザー名/myblog.git
 git push -u origin main
 ```
 

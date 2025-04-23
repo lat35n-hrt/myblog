@@ -78,7 +78,7 @@ hugo new content/en/posts/hello-en.md
 :::
 
 ---
-### 5. Run Local Server
+### 5. ローカルサーバを実行
 
 ```bash
 hugo server
@@ -89,16 +89,27 @@ Check the site locally at: [http://localhost:1313](http://localhost:1313)
 ---
 ### 6. GitHub との連携
 
+
+- .gitignore に除外項目を追記:
+
+
+```
+public/
+.hugo_build.lock
+.DS_Store
+.vscode/
+```
+
+- GitHubに新規レポジトリ `myblog` を作成する
+- リモート更新する:
+
 ```bash
-echo "public/" >> .gitignore
-echo ".DS_Store" >> .gitignore
 git add .
 git commit -m "initial commit"
 git remote add origin https://github.com/ユーザー名/myblog.git
 git push -u origin main
 ```
 
-（途中でリモート名を誤って `mybllog.git` にしていたが、GitHub 上で rename → リモートURL再設定で解決）
 
 ---
 
