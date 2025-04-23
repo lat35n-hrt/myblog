@@ -114,7 +114,7 @@ git push -u origin main
 
 ### 8. Domain and Naming
 
-Considering domain names with natural or poetic imagery:
+Considering domain names with Japanese + log:
 
 ---
 
