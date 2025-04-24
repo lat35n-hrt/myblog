@@ -83,7 +83,7 @@ hugo new content/en/posts/hello-en.md
 hugo server
 ```
 
-Check the site locally at: [http://localhost:1313](http://localhost:1313)
+ローカル環境でサイトを確認: [http://localhost:1313](http://localhost:1313)
 
 ---
 ### 6. GitHub との連携
