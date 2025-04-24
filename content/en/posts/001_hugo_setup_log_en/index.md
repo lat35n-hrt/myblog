@@ -107,6 +107,9 @@ git push -u origin main
 - Linked with GitHub and deployed from Cloudflare Pages using “+Add > Pages”
 - Static files under the public/ directory are served
 - You can also specify the Hugo version(v0.146) and build command ('hugo')
+  Build command: hugo
+  Build output directory: /public
+  Variable name: HUGO_VERSION = 0.146
 
 - The baseURL in hugo.toml was a placeholder, so I updated it to the actual Cloudflare Pages URL.
 (The homepage was visible, but internal links didn’t work until this was fixed.)

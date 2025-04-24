@@ -6,7 +6,7 @@ draft = false
 
 ## 概要
 
-Hugo(v0.146)を使って、静的ブログを立ち上げた記録。
+Hugo(v0.146) を使って、静的ブログを立ち上げた記録。
 
 テーマは PaperMod。
 日本語と英語の２言語設定。
@@ -117,6 +117,10 @@ git push -u origin main
 - GitHub と連携し、Cloudflare Pages の「+Add > Pages」からデプロイ
 - `public/` 配下の静的ファイルが公開される
 - Hugo のバージョン(v0.146)とビルドコマンド（`hugo`）を指定
+  Build command: hugo
+  Build output directory: /public
+  Variable name: HUGO_VERSION = 0.146
+
 - hugo.toml の baseURL は仮置きの状態だったので、Cloudflare Pages の URL を設定する。
 （トップ画面は表示されるがリンクが機能しないので修正）
 ---
