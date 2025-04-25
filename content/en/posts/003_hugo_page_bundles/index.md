@@ -1,6 +1,6 @@
 +++
 date = '2025-04-25T09:39:13+09:00'
-draft = true
+draft = false
 title = 'Hugo Blog: How Page Bundles Work'
 +++
 
