@@ -1,7 +1,7 @@
 +++
-date = '2025-04-27T01:00:00+00:00'
-draft = false
 title = 'Linux Command Basic'
+date = '2025-04-26T16:00:00+09:00'
+draft = false
 +++
 
 # 🎯 Purpose
