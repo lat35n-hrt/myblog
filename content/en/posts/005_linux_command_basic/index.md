@@ -1,5 +1,5 @@
 +++
-date = '2025-04-27T00:33:00+00:00'
+date = '2025-04-27T01:00:00+00:00'
 draft = false
 title = 'Linux Command Basic'
 +++
