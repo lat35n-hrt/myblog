@@ -37,7 +37,7 @@ Twig、Blade、Smartyなどのテンプレートエンジンは、次の2点で�
 
 Blade（Laravel）では、より直感的で読みやすくなります。
 
-```blade
+```php
 <ul>
   @foreach ($items as $item)
     <li>{{ $item->name }}</li>
