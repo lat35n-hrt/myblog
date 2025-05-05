@@ -1,6 +1,6 @@
 +++
 date = '2025-05-05T22:11:11+09:00'
-draft = true
+draft = false
 title = 'PHP Template Engine Readability'
 +++
 
