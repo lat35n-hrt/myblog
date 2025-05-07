@@ -10,17 +10,17 @@ theme = "PaperMod"
     languageName = "日本語"
     weight = 1
     contentDir = "content/ja"
-    title = "マイブログ"
+    title = "TarcLog｜日々の学びと発信"
     languageCode = "ja"
-    params.homeInfoParams = { Title = "ようこそ", Content = "これは日本語のブログです。" }
+    params.homeInfoParams = { Title = "ようこそ", Content = "ここでは日々の学びや試行錯誤を共有しています。" }
 
   [languages.en]
     languageName = "English"
     weight = 2
     contentDir = "content/en"
-    title = "My Blog"
+    title = "TarcLog | Learning and Sharing Every Day"
     languageCode = "en"
-    params.homeInfoParams = { Title = "Welcome", Content = "This is an English blog." }
+    params.homeInfoParams = { Title = "Welcome!", Content = "This is where I share my daily learning and trial-and-error experiences." }
 
 [params]
   ShowReadingTime = true
