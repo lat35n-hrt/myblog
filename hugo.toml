@@ -14,6 +14,19 @@ theme = "PaperMod"
     languageCode = "ja"
     params.homeInfoParams = { Title = "ようこそ", Content = "ここでは日々の学びや試行錯誤を共有しています。" }
 
+    [[languages.ja.menu.main]]
+      identifier = "about"
+      name = "このブログについて"
+      url = "/ja/about/"
+      weight = 10
+
+    [[languages.ja.menu.main]]
+      identifier = "categories"
+      name = "カテゴリ"
+      url = "/ja/categories/"
+      weight = 20
+
+
   [languages.en]
     languageName = "English"
     weight = 2
@@ -21,6 +34,19 @@ theme = "PaperMod"
     title = "TarcLog | Learning and Sharing Every Day"
     languageCode = "en"
     params.homeInfoParams = { Title = "Welcome!", Content = "This is where I share my daily learning and trial-and-error experiences." }
+
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/en/about/"
+      weight = 10
+
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      name = "Categories"
+      url = "/en/categories/"
+      weight = 20
+
 
 [params]
   ShowReadingTime = true
