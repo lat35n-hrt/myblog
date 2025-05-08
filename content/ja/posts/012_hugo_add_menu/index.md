@@ -1,7 +1,7 @@
 +++
 date = '2025-05-08T16:45:11+09:00'
 draft = false
-title = 'Hugo メニュー追加'
+title = 'Hugo にカスタムメニューを追加'
 +++
 
 
