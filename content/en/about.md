@@ -11,7 +11,7 @@ This blog is built using **Hugo**, a static site generator.
 Here are the tools and technologies used:
 
 - Hugo
-- Markup
+- Markdown
 - GitHub
 - Cloudflare Pages
 
