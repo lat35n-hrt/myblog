@@ -2,6 +2,7 @@
 date = '2025-05-05T13:34:59+09:00'
 draft = false
 title = 'PHP Basic Index'
+categories = ["PHP"]
 +++
 
 # 🔰 Summary of Key Concepts in PHP Basics

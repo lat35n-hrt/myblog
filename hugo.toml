@@ -60,3 +60,7 @@ theme = "PaperMod"
 
 [markup.goldmark.renderer]
   unsafe = true
+
+
+[taxonomies]
+  category = "categories"

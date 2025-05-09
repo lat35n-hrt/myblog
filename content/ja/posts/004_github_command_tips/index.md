@@ -2,6 +2,7 @@
 title = "GitHub操作Tips：履歴検索・除外指定・ファイル追跡など"
 date = '2025-04-26T01:22:11+09:00'
 draft = false
+categories = ["GitHub"]
 +++
 
 

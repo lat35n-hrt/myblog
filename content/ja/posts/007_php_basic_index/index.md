@@ -2,6 +2,7 @@
 date = '2025-05-05T13:34:48+09:00'
 draft = false
 title = 'PHP基礎入門まとめ'
+categories = ["PHP"]
 +++
 
 # 【PHP基礎入門】重要ポイントまとめ

@@ -2,6 +2,7 @@
 date = '2025-05-05T22:10:59+09:00'
 draft = false
 title = 'PHPテンプレートエンジンと可読性'
+categories = ["PHP"]
 +++
 
 

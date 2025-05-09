@@ -2,6 +2,7 @@
 date = '2025-05-06T20:23:18+09:00'
 draft = false
 title = 'PHP array vs Python list'
+categories = ["PHP"]
 +++
 
 # Background

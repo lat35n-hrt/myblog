@@ -2,6 +2,7 @@
 date = '2025-04-25T09:38:52+09:00'
 draft = false
 title = 'Hugoブログ：Page Bundlesの使い方'
+categories = ["Hugo"]
 +++
 
 # Hugo の Page Bundles について

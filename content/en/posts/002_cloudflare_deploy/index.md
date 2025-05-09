@@ -2,6 +2,7 @@
 title = 'Cloudflare_deploy'
 date = '2025-04-24T17:04:05+09:00'
 draft = false
+categories = ["Cloudflare"]
 +++
 
 ## Hugo → GitHub → Cloudflare Pages: Deployment Flow

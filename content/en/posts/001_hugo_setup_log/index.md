@@ -2,6 +2,7 @@
 title = "Hugo Setup Log"
 date = 2025-04-23T14:00:00+09:00
 draft = false
+categories = ["Hugo"]
 +++
 
 ## Overview

@@ -2,6 +2,7 @@
 date = '2025-05-06T08:02:52+09:00'
 draft = false
 title = 'PHP関数チートシート（初心者用）'
+categories = ["PHP"]
 +++
 
 # PHP関数チートシート

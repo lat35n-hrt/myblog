@@ -2,6 +2,7 @@
 date = '2025-04-25T09:39:13+09:00'
 draft = false
 title = 'Hugo Blog: How Page Bundles Work'
+categories = ["Hugo"]
 +++
 
 

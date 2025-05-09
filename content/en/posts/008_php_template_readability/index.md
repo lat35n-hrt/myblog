@@ -2,6 +2,7 @@
 date = '2025-05-05T22:11:11+09:00'
 draft = false
 title = 'PHP Template Engine Readability'
+categories = ["PHP"]
 +++
 
 # Problem

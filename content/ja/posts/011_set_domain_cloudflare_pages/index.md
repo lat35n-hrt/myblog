@@ -2,6 +2,7 @@
 date = '2025-05-07T19:24:37+09:00'
 draft = false
 title = 'Cloudflareに独自ドメイン適用'
+categories = ["Cloudflare"]
 +++
 
 

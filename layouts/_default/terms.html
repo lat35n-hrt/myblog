@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <h1>{{ i18n "allCategories" }}</h1>
+  <br>
+
+  {{ range $name, $pages := .Site.Taxonomies.categories }}
+    <h2>{{ $name }} ({{ len $pages }})</h2>
+    <ul>
+      {{ range $pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+    <br>
+  {{ end }}
+{{ end }}

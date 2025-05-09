@@ -2,6 +2,7 @@
 title = "GitHub Command Tips: Searching History, Excluding Files, Tracking Changes"
 date = '2025-04-26T01:21:45+09:00'
 draft = false
+categories = ["GitHub"]
 +++
 
 

@@ -2,6 +2,7 @@
 date = '2025-05-07T19:24:45+09:00'
 draft = false
 title = 'Apply a Custom Domain to Cloudflare'
+categories = ["Cloudflare"]
 +++
 
 ## Purpose

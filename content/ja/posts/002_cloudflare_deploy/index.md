@@ -2,6 +2,7 @@
 title = 'Cloudflareによるデプロイ'
 date = '2025-04-24T17:03:41+09:00'
 draft = false
+categories = ["Cloudflare"]
 +++
 
 
