@@ -7,6 +7,9 @@ categories = ["Hugo"]
 
 This article explains how to add a category menu in Hugo and support multilingual sites. By explicitly including `/ja/` in the URL even for the default language (Japanese), you can ensure stable routing on platforms like Cloudflare Pages.
 
+
+![](hugo_menu_categories_en.png)
+
 ---
 
 ## 1. Assign Categories to Each Post
