@@ -1,6 +1,7 @@
 baseURL = "https://tarclog.com/"
-defaultContentLanguage = "ja"
 theme = "PaperMod"
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = true # Include /ja/ in URLs even for the default language to avoid root-level pages
 
 [pagination]
   paginate = 5
