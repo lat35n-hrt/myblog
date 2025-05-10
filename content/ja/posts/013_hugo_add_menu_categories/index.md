@@ -1,7 +1,7 @@
 +++
 date = '2025-05-10T12:39:41+09:00'
 draft = false
-title = 'Hugoにカテゴリメニューを追加'
+title = 'Hugo にカスタムメニューを追加（カテゴリ）'
 categories = ["Hugo"]
 +++
 

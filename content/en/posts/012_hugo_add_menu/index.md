@@ -1,7 +1,7 @@
 +++
 date = '2025-05-08T16:45:18+09:00'
 draft = false
-title = 'Adding a Custom Menu in Hugo'
+title = 'Adding a Custom Menu in Hugo (About)'
 categories = ["Hugo"]
 +++
 
