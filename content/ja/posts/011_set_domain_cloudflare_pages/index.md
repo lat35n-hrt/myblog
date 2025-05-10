@@ -12,12 +12,12 @@ categories = ["Cloudflare"]
 ブログに独自ドメインを適用する
 
 
-## 状況整理
+## セットアップ環境
 ・ドメイン取得元：さくらインターネット（＝レジストラ）
 
 ・ブログ運用先：Cloudflare（＝DNS管理＆CDN/セキュリティ/ホスティング）
 
-
+・静的サイトジェネレータ：Hugo (v0.146)
 
 ## 手順（概要）
 
@@ -85,7 +85,9 @@ Cloudflare の「SSL/TLS」設定を Full または Full (Strict) にしてお�
 <p></p>
 
 
-6. config.toml の baseURL を変更（本来は最初にやっておく）
+6. ブログ環境設定
+
+config.toml の baseURL を変更（本来は最初にやっておく）
 
 ・baseURL = "https://yourdomain.com/" を変更
 

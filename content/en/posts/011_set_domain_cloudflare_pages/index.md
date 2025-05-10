@@ -13,6 +13,7 @@ Apply a custom domain to your blog.
 
 - Domain registrar: SAKURA Internet
 - Blog hosting: Cloudflare (DNS management, CDN/security, and hosting)
+- Static Site Generator：Hugo (v0.146)
 
 ## Procedure (Overview)
 
@@ -75,7 +76,9 @@ You can fine-tune page caching and compression under the **Speed** and **Caching
 5. Access the domain from your browser to verify that it works
 <p></p>
 
-6. Update the `baseURL` in your `config.toml` (ideally, this should be done earlier)
+6. Blog Configuration
+
+Update the `baseURL` in your `config.toml` (ideally, this should be done earlier)
 
 - Change:
   `baseURL = "https://yourdomain.com/"`
