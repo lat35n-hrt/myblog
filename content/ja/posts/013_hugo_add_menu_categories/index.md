@@ -59,13 +59,6 @@ layouts/_default/terms.html に以下を作成します：
 
 ```
 
-トラブルシューティング
-
-✅ 問題：.Data.Terms.Alphabetical を使うと記事が表示されない。
-
-✅ 原因：.Data.Terms は現在のページのスコープに依存します。たとえば content/ja/categories.md が taxonomy ページとして正しく機能していないと、.Data.Terms が空になることがあります。
-
-一方、.Site.Taxonomies.categories は言語スコープに関係なく全体のカテゴリを表示します。
 
 ---
 

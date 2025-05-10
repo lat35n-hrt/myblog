@@ -55,11 +55,6 @@ Create the following file at layouts/_default/terms.html:
 ```
 
 
-Troubleshooting <br>
-✅ Issue: No posts are displayed when using .Data.Terms.Alphabetical.
-
-✅ Cause: .Data.Terms depends on the current page scope. For example, if content/ja/categories.md is not working properly as a taxonomy page, .Data.Terms can be empty.
-By contrast, .Site.Taxonomies.categories lists all categories regardless of language scope.
 
 ---
 
