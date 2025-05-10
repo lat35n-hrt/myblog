@@ -86,7 +86,8 @@ layout = "terms"
 ---
 
 ## 5. Multilingual Support: Using i18n for Translations
-To localize "All Categories" in the shared template, create an i18n/ directory and define translation keys:
+To localize text in shared templates, create an i18n/ directory and define translation keys.
+Example: Translating “All Categories” in terms.html
 
 ```text
 myblog/
