@@ -38,7 +38,7 @@ categories = ["Hugo"]
 terms.html is the template for taxonomy listing pages.
 Create the following file at layouts/_default/terms.html:
 
-```GoHTML
+```go
 {{ define "main" }}
   <h1>{{ i18n "allCategories" }}</h1>
 

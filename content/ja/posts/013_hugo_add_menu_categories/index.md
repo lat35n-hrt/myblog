@@ -42,7 +42,7 @@ terms.html は taxonomy（分類）一覧ページのテンプレートです。
 layouts/_default/terms.html に以下を作成します：
 
 
-```GoHTML
+```go
 {{ define "main" }}
   <h1>{{ i18n "allCategories" }}</h1>
 
