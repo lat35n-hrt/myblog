@@ -2,6 +2,7 @@
 date = '2025-05-06T08:03:02+09:00'
 draft = false
 title = 'PHP Function Cheat Sheet (For Beginners)'
+categories = ["PHP"]
 +++
 
 # PHP Function Cheat Sheet
