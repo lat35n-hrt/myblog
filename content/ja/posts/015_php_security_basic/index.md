@@ -2,6 +2,7 @@
 date = '2025-05-13T09:46:10+09:00'
 draft = false
 title = 'PHP セキュリティ基礎'
+categories = ["PHP"]
 +++
 
 
