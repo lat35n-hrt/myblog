@@ -9,8 +9,9 @@ categories = ["PHP"]
 ### ✅ Key Security Considerations When Implementing Delete Functionality in PHP
 In the previous article, we discussed how to implement CSRF tokens and authentication checks. As a practical follow-up, this article summarizes the key security measures you should take when implementing a custom delete operation in PHP.
 
-### 1. 🔐 CSRF Token Validation
+<br>
 
+### 1. 🔐 CSRF Token Validation
 
 ``` php
 if (empty($_POST['token']) || !hash_equals($_SESSION['token'], $_POST['token'])) {
@@ -21,6 +22,8 @@ if (empty($_POST['token']) || !hash_equals($_SESSION['token'], $_POST['token']))
 ```
 
 This snippet ensures that requests originate from valid sessions, not from malicious third-party sites. The token in the session is matched against the token submitted via POST — a critical step in defending against Cross-Site Request Forgery (CSRF) attacks.
+
+<br>
 
 ### 2. 🚫 Use POST Instead of GET
 
@@ -37,6 +40,8 @@ The resource can be deleted simply by visiting a URL
 Browser previews or link sharing can unintentionally trigger the deletion
 Therefore, we explicitly enforce POST to prevent accidental or unauthorized deletions.
 
+<br>
+
 ### 3. ✅ User Permission Check
 
 ``` php
@@ -49,6 +54,7 @@ if ($_SESSION['role'] !== 'admin' && $_SESSION['role'] !== 'editor') {
 
 To prevent unauthorized or accidental deletions, only users with the admin or editor role are allowed to perform delete operations.
 
+<br>
 
 ### 4. 🔒 SQL Injection Protection
 
@@ -61,6 +67,7 @@ $stmt->execute();
 
 We use prepared statements with bindValue() to ensure user input is treated safely, effectively preventing SQL injection attacks.
 
+<br>
 
 ### 5. 📦 Record Existence Check and Transaction Handling
 
@@ -80,6 +87,8 @@ $dbh->commit();
 
 Before deletion, verify that the target record exists. By wrapping the process in a transaction, you ensure consistency — if an error occurs, rollback() can revert the operation safely.
 
+<br>
+
 ### 6. 🧼 XSS Protection with str2html()
 
 ``` php
@@ -97,7 +106,7 @@ function str2html(string $arg_input): string {
 
 ```
 
-
+<br>
 
 ### 📝 Summary
 Delete operations may seem straightforward at first, but poor implementation can lead to serious vulnerabilities or accidental data loss. In this implementation, we’ve taken care to include the following security best practices:
@@ -116,6 +125,7 @@ Delete operations may seem straightforward at first, but poor implementation can
 
 By following these guidelines, you can ensure your delete functionality is both robust and secure.
 
+<br>
 
 ### Sample codes
 
