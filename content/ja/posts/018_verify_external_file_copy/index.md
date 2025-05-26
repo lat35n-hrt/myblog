@@ -2,6 +2,7 @@
 date = '2025-05-26T18:30:36+09:00'
 draft = false
 title = '外部デバイスへのファイルコピー検証'
+categories = ["macos"]
 +++
 
 
