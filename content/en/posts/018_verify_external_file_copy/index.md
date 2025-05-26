@@ -40,9 +40,9 @@ find /Volumes/GoPro2022 \( -path "*/.Spotlight-V100" -o -path "*/.Trashes" -o -p
 
 -iname: Case-insensitive file extension filter
 
-Result:
+Result: 244
 
-244
+
 Strange—there were only 130 files in the original folder. Where did the rest come from?
 
 ## Step 2: Identifying Resource Forks (._ Files)
