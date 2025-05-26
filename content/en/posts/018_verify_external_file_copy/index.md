@@ -2,6 +2,7 @@
 date = '2025-05-26T18:30:44+09:00'
 draft = false
 title = 'Verify External File Copy'
+categories = ["macos"]
 +++
 
 
