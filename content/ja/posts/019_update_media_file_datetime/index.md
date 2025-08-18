@@ -65,7 +65,10 @@ ExifToolを使って、ファイルシステム上の日時も修正可能です
 ### 📌 コマンド例：
 
 ````bash
-exiftool -P -overwrite_original \   "-FileModifyDate<CreateDate" \   "-FileCreateDate<CreateDate" \   /Volumes/Untitled/DCIM/100MEDIA/*.MP4
+exiftool -P -overwrite_original \
+   "-FileModifyDate<CreateDate" \
+   "-FileCreateDate<CreateDate" \
+   /Volumes/Untitled/DCIM/100MEDIA/*.MP4
 ````
 
 - `-P`：オリジナルのファイルアクセス権を維持
