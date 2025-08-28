@@ -13,7 +13,7 @@ I built a system in FastAPI to generate archive pages for articles by date.
 Along with each article, I wanted to place an audio file (MP3) so that it could be played directly from the web page.
 Here’s how I implemented it.
 
-1. Prepare a Directory for MP3 Files
+## 1. Prepare a Directory for MP3 Files
 
 First, configure FastAPI to serve static files.
 For example, if you set the output/ directory as the root for static files, any MP3 saved there can be accessed via a URL like /static/xxx.mp3.
