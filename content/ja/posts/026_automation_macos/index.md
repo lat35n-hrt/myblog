@@ -63,7 +63,6 @@ Python script (.py)
     <key>Minute</key><integer>0</integer>
   </dict>
 
-  <key>KeepAlive</key><true/>
   <key>RunAtLoad</key><true/>
   <key>StandardOutPath</key><string>/tmp/daily_task.log</string>
   <key>StandardErrorPath</key><string>/tmp/daily_task.err</string>
@@ -80,7 +79,7 @@ Python script (.py)
 |**Label**|macOS全体で一意となる識別名。`com.example.daily` のようにドメイン逆引き形式で管理するのが慣習。|
 |**ProgramArguments**|実行するファイルパス（ここでは `.sh`）を指定。引数を配列で書くのがXML仕様。|
 |**StartCalendarInterval**|実行スケジュール。ここでは「毎日20:00」。|
-|**KeepAlive / RunAtLoad**|スリープ復帰やログイン時にも再実行可能にするオプション。|
+|**RunAtLoad**|ログイン時にも再実行可能にするオプション。|
 |**StandardOutPath / StandardErrorPath**|出力とエラーをログファイルにリダイレクト。|
 
 ### 🔧 操作コマンド

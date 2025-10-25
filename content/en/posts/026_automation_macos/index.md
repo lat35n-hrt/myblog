@@ -58,7 +58,6 @@ This three-layer structure ensures stability, reproducibility, and maintainabili
     <key>Minute</key><integer>0</integer>
   </dict>
 
-  <key>KeepAlive</key><true/>
   <key>RunAtLoad</key><true/>
   <key>StandardOutPath</key><string>/tmp/daily_task.log</string>
   <key>StandardErrorPath</key><string>/tmp/daily_task.err</string>
@@ -74,7 +73,7 @@ This three-layer structure ensures stability, reproducibility, and maintainabili
 | **Label**                               | Unique job identifier. The reverse domain format (`com.example.daily`) prevents conflicts with other system or app jobs. |
 | **ProgramArguments**                    | Specifies the file to execute (the shell script in this case). Arguments are written as an array per XML rules.          |
 | **StartCalendarInterval**               | Defines when to run. Here, it runs every day at 20:00.                                                                   |
-| **KeepAlive / RunAtLoad**               | Ensures the job can restart after sleep or immediately upon login.                                                       |
+| **RunAtLoad**               | Ensures the job can restart after immediately upon login.                                                       |
 | **StandardOutPath / StandardErrorPath** | Redirects output and error streams to log files for debugging.                                                           |
 
 
