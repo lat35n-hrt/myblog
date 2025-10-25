@@ -2,6 +2,7 @@
 date = '2025-10-25T15:34:16+09:00'
 draft = false
 title = 'macOS自動化処理'
+categories = ["macos"]
 +++
 
 
