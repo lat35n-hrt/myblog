@@ -67,6 +67,6 @@ defaultContentLanguageInSubdir = true # Include /ja/ in URLs even for the defaul
   category = "categories"
 
 
-[params.posthog]
-  public_key = "$POSTHOG_PUBLIC_KEY"
-  api_host   = "$POSTHOG_API_HOST"
+[security]
+  [security.funcs]
+    getenv = ['^POSTHOG_.+$', '^HUGO_']
