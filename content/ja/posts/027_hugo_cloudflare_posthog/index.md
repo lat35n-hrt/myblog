@@ -2,6 +2,7 @@
 date = '2025-11-21T15:51:52+09:00'
 draft = false
 title = 'Hugo × Cloudflare Pages × PostHog  — 統合ガイド'
+categories = ["hugo"]
 +++
 
 
