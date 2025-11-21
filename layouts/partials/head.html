@@ -158,8 +158,8 @@
 {{- end -}}
 
 {{/* === PostHog Snippet Injection === */}}
-{{- $ph_key := site.Params.posthog.public_key | default "" -}}
-{{- $ph_host := site.Params.posthog.api_host | default "https://us.i.posthog.com" -}}
+{{- $ph_key := getenv "POSTHOG_PUBLIC_KEY" -}}
+{{- $ph_host := getenv "POSTHOG_API_HOST" | default "https://us.i.posthog.com" -}}
 
 {{- if $ph_key -}}
 <script>
