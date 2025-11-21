@@ -15,6 +15,7 @@
 
 # Log files
 *.log
+hugo_build_log*.txt
 
 # Node modules (if you use npm for styling or plugins)
 node_modules/
