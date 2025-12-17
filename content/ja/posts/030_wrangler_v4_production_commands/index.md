@@ -23,6 +23,7 @@ wrangler v4 では、以下の軸を意識しないと混乱します。
 | Namespace | preview or production |
 
 本記事では **Production KV / R2 を「確実に触る」** ことを優先します。
+VK/R2では remote（実体）を前提。local は .wrangler/state に保存される（必要ならリセット可）。
 
 ## 1. 本番 KV への JSON PUT（production）
 

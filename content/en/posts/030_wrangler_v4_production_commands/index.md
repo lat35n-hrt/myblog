@@ -25,6 +25,7 @@ With wrangler v4, you'll get confused without understanding these axes:
 | Namespace | preview or production |
 
 This article prioritizes **reliably interacting with Production KV / R2**.
+For KV/R2, this guide assumes remote mode (real resources). The local mode stores its state under .wrangler/state (you can reset it by deleting that directory if needed).
 
 ## 1. JSON PUT to Production KV
 
