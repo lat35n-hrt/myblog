@@ -16,12 +16,12 @@ This article explains how to solve this problem permanently.
 
 ## Version Information (Test Environment)
 
-macOS (Intel): 13.7.2
-Node.js: 20.2.0 (when problem occurred) → 22.12.0 (after fix)
-npm: 10.9.0
-nvm: 0.40.3
-Vite: 7.2.4
-React: 19.2.0
+- macOS (Intel): 13.7.2
+- Node.js: 20.2.0 (when problem occurred) → 22.12.0 (after fix)
+- npm: 10.9.0
+- nvm: 0.40.3
+- Vite: 7.2.4
+- React: 19.2.0
 
 
 ## Problem Symptoms
