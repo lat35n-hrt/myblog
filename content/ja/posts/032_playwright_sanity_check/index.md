@@ -181,7 +181,7 @@ HTMLレポートには、下記の内容が一覧表示されています。
 - テスト集計 (All, Passed, Fialed, Flaky, Skipped)
 - Project chronium > events.spec.ts に含まれる各テスト項目の結果
 
-![Playwright E2E report](playwright_show_report.png)
+![Playwright E2E report](playwright_show_report_failed.png)
 
 
 **エラーレポート**
