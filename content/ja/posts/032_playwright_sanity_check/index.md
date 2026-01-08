@@ -2,6 +2,7 @@
 date = '2026-01-04T01:13:50+09:00'
 draft = false
 title = 'Playwright E2Eテストの変更を検知'
+categories = ["Playwright"]
 +++
 
 ## はじめに

@@ -2,6 +2,7 @@
 date = '2026-01-04T01:13:58+09:00'
 draft = false
 title = 'Playwright E2E Testing: Detecting Breaking Changes'
+categories = ["Playwright"]
 +++
 
 
