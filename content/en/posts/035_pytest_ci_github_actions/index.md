@@ -106,13 +106,13 @@ jinja2
 
 In this environment:
 ```bash
- % python -m pip show fastapi uvicorn anyio | egrep '^(Name|Version):'
+% python -m pip show fastapi uvicorn jinja2 | egrep '^(Name|Version):'
 Name: fastapi
 Version: 0.128.0
 Name: uvicorn
 Version: 0.40.0
-Name: anyio
-Version: 4.12.1
+Name: Jinja2
+Version: 3.1.6
 ```
 
 ### API Test Packages (`backend/requirements-dev-api.txt`)
@@ -124,6 +124,19 @@ pytest>=8.0.0
 httpx>=0.27.0
 anyio>=4.0.0
 ```
+
+In this environment:
+```bash
+% python -m pip show pytest httpx anyio | egrep '^(Name|Version):'
+Name: pytest
+Version: 9.0.2
+Name: httpx
+Version: 0.28.1
+Name: anyio
+Version: 4.12.1
+```
+
+
 
 ## pytest Configuration
 
