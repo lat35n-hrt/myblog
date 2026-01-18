@@ -2,6 +2,7 @@
 date = '2026-01-18T14:55:39+09:00'
 draft = false
 title = 'REST Assured PoC'
+categories = ["REST Assured"]
 +++
 
 # Building a Minimal API Test Environment on macOS (REST Assured + Java 21 + mvnw)
