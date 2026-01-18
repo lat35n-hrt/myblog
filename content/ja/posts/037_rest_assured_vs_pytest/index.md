@@ -9,7 +9,7 @@ categories = ["REST Assured"]
 
 ## はじめに
 
-APIテスト自動化において、JavaではREST Assured、Pythonではpytestがそれぞれ標準的なフレームワークとして使われています。本記事では、両フレームワークの特徴を比較表形式で整理し、Python経験者がJava環境へ移行する際の参考情報を提供します。
+APIテスト自動化において、JavaではREST Assured、Pythonではpytestがそれぞれ標準的なフレームワークとして使われています。本記事では、両フレームワークの特徴を比較表形式で整理し、Python経験者がJava環境へ移行する際の参考情報を目的とします。
 
 ## フレームワーク比較表
 
@@ -46,7 +46,7 @@ APIテスト自動化において、JavaではREST Assured、Pythonではpytest�
 
 **pytest**は、Pythonの柔軟な型システムを活かし、辞書やリストの操作が直感的です。pydanticなどのライブラリと組み合わせることで、スキーマ検証も容易に実装できます。
 
-## 移行時の学習ポイント
+## 学習ポイント
 
 ### Python経験者がREST Assuredを学ぶ際の着目点
 
@@ -65,9 +65,9 @@ APIテスト自動化において、JavaではREST Assured、Pythonではpytest�
 
 ## まとめ
 
-Python/pytestでのAPIテスト経験は、REST Assuredへの移行において大きなアドバンテージとなります。APIテストの本質的な考え方は言語を超えて共通しており、新しいフレームワークの記法を学ぶだけで、既存の知識を活かせます。
+Python/pytestでのAPIテスト経験は、REST Assuredへの移行において大きなアドバンテージとなります。APIテストの本質的な考え方は言語共通なので、新しいフレームワークの記法を学ぶだけで既存の知識を活かせます。
 
-詳細な実装パターンや具体的なコード例については、各フレームワークの公式ドキュメントを参照してください：
+公式ドキュメント：
 
 - **REST Assured**: https://rest-assured.io/
 - **pytest**: https://docs.pytest.org/
