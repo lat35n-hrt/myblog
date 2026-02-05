@@ -5,7 +5,6 @@ title = 'String Cleaning with Python Regular Expressions'
 categories = ["python"]
 +++
 
-
 Text data preprocessing frequently involves removing unwanted characters and pattern matching. This article introduces practical patterns using Python's `re` module.
 
 ## 1. re.sub() - String Replacement and Cleaning
