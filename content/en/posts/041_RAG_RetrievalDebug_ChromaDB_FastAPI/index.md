@@ -1,7 +1,9 @@
 +++
 date = '2026-03-22T15:25:11+09:00'
 draft = false
-title = 'A Retrieval Debug PoC with FastAPI + ChromaDB'
+title = 'Debugging RAG Retrieval: A PoC with FastAPI + ChromaDB'
+categories = ["AI"]
+tags = ["RAG", "Retrieval", "ChromaDB", "FastAPI", "Debugging"]
 +++
 
 # How to Fix “Outdated Results Ranking Above Current Docs” in RAG

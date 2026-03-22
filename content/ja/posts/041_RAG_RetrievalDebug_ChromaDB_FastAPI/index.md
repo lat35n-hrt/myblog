@@ -1,8 +1,9 @@
 +++
 date = '2026-03-22T15:24:56+09:00'
-draft = true
-title = 'FastAPI + ChromaDB による Retrieval 診断 PoC'
-categories = ["RAG"]
+draft = false
+title = 'FastAPI + ChromaDB による RAG Retrieval デバッグ PoC'
+categories = ["AI"]
+tags = ["RAG", "Retrieval", "ChromaDB", "FastAPI", "Debugging"]
 +++
 
 
