@@ -2,6 +2,7 @@
 date = '2026-07-06T14:42:59+09:00'
 draft = false
 title = 'GitHub ActionsでPlaywright E2Eテストを実行する（React + FastAPI + SQLite）'
+categories = ["playwright"]
 +++
 
 
