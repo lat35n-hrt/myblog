@@ -220,11 +220,3 @@ The implementation process also helped me understand the relationship between:
 - SQLite
 
 rather than simply copying a sample workflow.
-
----
-
-## Repository
-
-GitHub Repository:
-
-https://github.com/lat35n-hrt/eventlens_calendar_poc
