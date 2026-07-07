@@ -228,9 +228,3 @@ rather than simply copying a sample workflow.
 GitHub Repository:
 
 https://github.com/lat35n-hrt/eventlens_calendar_poc
-
----
-
-## Next Step
-
-The next goal is to integrate this workflow into a broader CI/CD pipeline and continue improving the project's automated testing environment.
