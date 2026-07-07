@@ -24,11 +24,13 @@ categories = ["playwright"]
 
 ## 開発環境
 
-- Frontend：React + Vite
-- Backend：FastAPI
-- Database：SQLite
-- Test：Playwright
-- CI：GitHub Actions
+- Frontend: React + Vite
+- Node.js: 22.12.0
+- Backend: FastAPI
+- Python: 3.10
+- Database: SQLite
+- Test Framework: Playwright 1.57.0
+- CI: GitHub Actions
 - Docker：Playwright Official Image
 
 Docker イメージには以下を使用しました。

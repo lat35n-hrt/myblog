@@ -19,9 +19,11 @@ The goal was not only to make the workflow work, but also to understand what the
 ## Environment
 
 - Frontend: React + Vite
+- Node.js: 22.12.0
 - Backend: FastAPI
+- Python: 3.10
 - Database: SQLite
-- Test Framework: Playwright
+- Test Framework: Playwright 1.57.0
 - CI: GitHub Actions
 - Container: `mcr.microsoft.com/playwright:v1.57.0-noble`
 
